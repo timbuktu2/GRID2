@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+    "main1 main2 main3"
+    "section1 section2 section3"
+    "footer1 footer2 footer3";
+    gap: 5px;
+}
+
+.item {
+    background-color:   red;
+}
+.box-1 {
+    grid-area: main1;
+    height: 150%;
+    margin-bottom: 5%;
+
+}
+
+.box-2 {
+    grid-area: main2;
+    height: 75%;
+    margin-bottom: 5%;
+}
+
+.box-3 {
+    grid-area: main3;
+}
+
+.box-4 {
+    grid-area: section1;
+    height: 150%;
+    margin-top: 5%;
+}
+
+.box-5 {
+    grid-area: section2;
+    height: 150%;
+    margin-top: -4%;
+}
+
+.box-6 {
+    grid-area: section3;
+}
+
+.box-7 {
+    grid-area: footer1;
+    height: 30%;
+    margin-top: 10%;
+}
+
+.box-8 {
+    grid-area: footer2;
+    height: 75%;
+    margin-top: 2%;
+}
+
+.box-9 {
+    grid-area: footer3;
+}
+
